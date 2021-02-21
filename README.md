@@ -237,11 +237,15 @@ make test-full
 
 ### Compiling CX on Windows
 
-An installation script is also provided for Windows named `cx-setup.bat`. You can compile CX on Windows by running:
+Install GIT from https://git-scm.com/downloads and setup Go https://golang.org/.
+
+An installation script provided for Windows is named `cx-setup.bat`. Download zip or clone repository on your machine. Browse to cx-develop directory with Command prompt. Compile CX on Windows by running:
 
 ```
 cx-setup.bat
 ```
+
+Resolve any ERRORs that might come up during setup and compile again.
 
 You should test your installation by running:
 

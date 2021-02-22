@@ -243,6 +243,14 @@ An installation script is also provided for Windows named `cx-setup.bat`. You ca
 cx-setup.bat
 ```
 
+After setup. Run following commands:
+
+```
+go mod vendor
+go mod verify
+go mod tidy
+```
+
 You should test your installation by running:
 
 ```
